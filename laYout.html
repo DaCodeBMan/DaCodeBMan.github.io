@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout</title>
+<style>
+*,
+*::before,
+*::after{
+ box-sizing: inherit;
+}
+
+.container{
+    position: relative;
+    background-color: rgb(2, 109, 231);
+    height: 28px;
+    padding-top: 15px;
+    width:100%;
+    overflow: hidden;
+    }
+.button{
+    background-color: rgb(2, 109, 231);
+    border: none;
+    padding: 5px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+       
+}
+
+.h2 {
+    height: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    word-spacing: 5px;
+    margin: 5px;
+    
+}
+
+.h1{
+   font-size: 25pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 5px;
+}
+
+.row{
+    position: absolute;
+    background-color: rgb(206, 205, 205) ;
+    height:385px ;
+    width: 99%;
+    padding-bottom: 20px;
+}
+.col{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 20px;
+    grid-auto-rows: 10px;
+    color: grey;
+}
+
+
+
+
+</style>
+</head>
+
+
+
+<body>
+<div class="container"> <div class="h2">BootStrap Home</div> </div>  
+<div class="row"><div class="h1">LEARNING BOOTSTRAP</div> <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem aliquid tempora sit autem labore voluptas ab nesciunt, corporis assumenda aut. Aliquam ipsa, quod delectus neque at optio eius saepe illum?</P> 
+<button>Let's Go</button></div>
+<div class="col"></div>
+
+
+</body>
+</html>
